@@ -28,4 +28,9 @@ public class GlobalBaseException extends RuntimeException {
         this.code = code;
         this.msg = msg;
     }
+
+    public GlobalBaseException(String msg) {
+        super(msg);
+        this.msg = msg;
+    }
 }

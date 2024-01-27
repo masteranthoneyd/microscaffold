@@ -24,7 +24,7 @@ import static java.util.stream.Collectors.joining;
  *
  * 处理校验失败场景异常, 并返回 400 http code
  */
-@Order
+@Order(100)
 @RestControllerAdvice
 public class ValidationExceptionAdvice {
 

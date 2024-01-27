@@ -15,4 +15,8 @@ public class ClientException extends GlobalBaseException {
     public ClientException(String code, String msg, Throwable cause) {
         super(code, msg, cause);
     }
+
+    public ClientException(String msg) {
+        super(msg);
+    }
 }

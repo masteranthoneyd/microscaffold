@@ -15,4 +15,8 @@ public class ServerException extends GlobalBaseException {
     public ServerException(String code, String msg, Throwable cause) {
         super(code, msg, cause);
     }
+
+    public ServerException(String msg) {
+        super(msg);
+    }
 }
